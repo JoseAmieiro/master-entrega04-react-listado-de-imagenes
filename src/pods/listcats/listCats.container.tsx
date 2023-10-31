@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import {   } from "../../";
+import {   } from "../../core";
 
 export const ListCatsContainer = () => {
     const [ catList, setCatlist] = React.useState([cats]);
