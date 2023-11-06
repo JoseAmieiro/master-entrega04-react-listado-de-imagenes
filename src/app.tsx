@@ -1,6 +1,11 @@
 import React from "react";
-import { ListCatsContainer } from "./pods/listcats/listCats.container";
+
+import { AppRouter } from "@/core"
 
 export const App = () => {
-  return <ListCatsContainer/>;
+  return (
+    <>
+      <AppRouter />
+    </>
+  );
 };

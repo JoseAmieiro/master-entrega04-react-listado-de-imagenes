@@ -1,0 +1,35 @@
+       
+.list-cats-component {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.list-cats-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+.list-dogs-component {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.list-dogs-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+img {
+    width: 200px;
+    height: 250px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
